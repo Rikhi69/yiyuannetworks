@@ -1,0 +1,244 @@
+<resources>
+    <string name="app_name">自助终端机EN</string>
+    <string name="debug_tip">Functional development</string>
+    <string name="reopen">Please Reopen Apps</string>
+    <string name="rect">Rect : </string>
+    <string name="blur">Blur : </string>
+    <string name="light">Light : </string>
+    <string name="score">Score : </string>
+
+    <string name="sure">Sure</string>
+    <string name="no">No</string>
+    <string name="finish">Finish ?</string>
+    <string name="no_face">No Face</string>
+    <string name="load_camera">Loading Camera</string>
+    <string name="load">Loading</string>
+    <string name="load_done">Loading Done</string>
+    <string name="check">Check</string>
+    <string name="press_exit">Press Again Exit App</string>
+    <string name="init_fail">Init Fail</string>
+    <string name="init_close">Can not Open Register</string>
+
+    <string name="authorization">Authorization</string>
+    <string name="authorization_not">Not Need Authorization</string>
+    <string name="authorization_fail">Authorization Fail</string>
+    <string name="authorization_success">Authorization Success</string>
+    <string name="authorization_had">Had Authorization</string>
+
+    <string name="bmpregist">Register With Pic</string>
+    <string name="choose">Choose Pic</string>
+    <string name="start">Start Parse</string>
+    <string name="register">Register</string>
+    <string name="registered">Registered</string>
+    <string name="unregistered">UnRegistered</string>
+    <string name="register_success">Register Success</string>
+    <string name="register_fail">Register Fail</string>
+    <string name="name_empty">Name is Empty</string>
+
+    <string name="yuvregist">Regist With Yuv</string>
+    <string name="reopen_activity">Please Reopen Activity</string>
+    <string name="not_center">Face Not Center</string>
+    <string name="rise">Rise</string>
+    <string name="down">Down</string>
+    <string name="keep_left">Keep Left</string>
+    <string name="keep_right">Keep Right</string>
+    <string name="enter_register">Enter Register Message</string>
+    <string name="name">Name</string>
+    <string name="cancel">Cancel</string>
+    <string name="done">Done</string>
+
+    <string name="detect">Detect</string>
+    <string name="slot_card">Slot Card</string>
+    <string name="reset">Reset</string>
+    <string name="random_register">Random Register</string>
+    <string name="match_success">Match Success</string>
+    <string name="match_fail">Match Fail</string>
+    <string name="parse_begin">Parse Begin</string>
+    <string name="parse_success">Parse Success</string>
+    <string name="parse_fail">Parse Fail</string>
+
+    <string name="list">Register List</string>
+    <string name="delete">Delete</string>
+    <string name="deleting">Delete Now</string>
+    <string name="delete_all">Delete All</string>
+    <string name="selectall">Select All</string>
+    <string name="selectpage">Select Now</string>
+    <string name="select">Select : </string>
+    <string name="selectmore">Select More</string>
+    <string name="update_success">Update Success</string>
+    <string name="update_fail">Update Fail</string>
+    <string name="delete_fail">Delete Fail</string>
+
+    <string name="bulkregist">Bulk registration</string>
+    <string name="file_path">File Path</string>
+    <string name="file_size">File Size</string>
+    <string name="dir_empty">Dir Empty</string>
+    <string name="register_all">Register All</string>
+
+    <string name="config">Config</string>
+    <string name="set">Set</string>
+    <string name="set_success">Set Success</string>
+    <string name="set_fail">Set Fail</string>
+    <string name="auto">Auto</string>
+    <string name="preview_size">Camera Preview Size</string>
+    <string name="tracker_mode">Tracker Mode</string>
+    <string name="register_db">Register DB</string>
+    <string name="detect_db">Detect DB</string>
+    <string name="db_default">Default DB</string>
+    <string name="db_ex">Expand DB</string>
+    <string name="detect_mode">Detect Mode</string>
+    <string name="live_mode">Live Mode</string>
+    <string name="live_mode_normal">Normal Mode</string>
+    <string name="live_mode_auto">Auto Mode</string>
+    <string name="recognition_mode_track1">Tracker One</string>
+    <string name="recognition_mode_track2">Tracker Two</string>
+    <string name="recognition_mode_recognition">Only Recognition</string>
+    <string name="debug">Debug</string>
+    <string name="savefake">Save Fake</string>
+    <string name="savelive">Save Live</string>
+    <string name="savetan">Save Tan</string>
+    <string name="saveblur">Save Blur</string>
+    <string name="savenoface">Save NoFace</string>
+    <string name="savess">Save Similarity Small</string>
+    <string name="savet">Save Tracker Face</string>
+    <string name="lr">Face Rect Left x Right</string>
+    <string name="tb">Face Rect Top x Bottom</string>
+    <string name="camera_id">Camera ID</string>
+    <string name="camera_degree">Camera Degree</string>
+    <string name="preview_degree">Preview Degree</string>
+    <string name="tracker_count">Tracker Count</string>
+    <string name="tracker_w">Tracker Scale Width</string>
+    <string name="tracker_h">Tracker Scale Height</string>
+    <string name="detect_face_rect">Tracker Face Rect</string>
+    <string name="detect_rate">Detect Rate</string>
+    <string name="tracker_size">Tracker Size</string>
+    <string name="feature_size">Extract Size</string>
+    <string name="detect_size">Detect Size</string>
+    <string name="value_face_minima">Register face minima</string>
+    <string name="value_unlock">Recognition Value</string>
+    <string name="value_liveness">Liveness Value</string>
+    <string name="value_liveness2">Liveness Value 2</string>
+    <string name="value_liveness3">Liveness Value 3</string>
+    <string name="value_fake_count">Fake Count</string>
+    <string name="value_live_count">Live Count</string>
+    <string name="value_detect_light_max">Max Light(SDK Detect)</string>
+    <string name="value_detect_light_min">Min Light(SDK Detect)</string>
+    <string name="value_detect_blur">Blur (SDK Detect)</string>
+    <string name="value_detect_blur_new">BlurNew (SDK Detect)</string>
+    <string name="value_register_light_max">Max Light(SDK Register)</string>
+    <string name="value_register_light_min">Min Light(SDK Register)</string>
+    <string name="value_register_blur">Blur (SDK Register)</string>
+    <string name="switch_liveness">Detect with Liveness</string>
+    <string name="switch_recognition">Detect with Recognition</string>
+
+    <string name="infrared_mode">Infrared Mode</string>
+    <string name="infrared_value">Infrared Recognition Value</string>
+    <string name="saveinfrared">Save Infrared</string>
+    <string name="saveinfraredlive">Save Infrared Live J</string>
+    <string name="saveinfraredfake">Save Infrared Fake J</string>
+    <string name="infrared_switch">Detect with Infrared</string>
+
+    <!--自主注册机的文本信息-->
+    <!--AiMainActivity-->
+    <string name="ai_main_welcome">欢迎使用自助服务终端</string>
+    <string name="ai_main_tab_register">自助注册</string>
+    <string name="ai_main_tab_game">游戏</string>
+    <string name="ai_main_tab_photo">拍照</string>
+    <string name="ai_main_tab_message">信息查询</string>
+    <string name="ai_main_tab_money">红包</string>
+
+    <!--RegisterActivity-->
+    <string name="register_dialog_photo_please">请先拍照</string>
+    <string name="register_saving">正在保存注册信息...</string>
+    <string name="register_upload_img_fail">图片上传失败</string>
+    <string name="register_server_fail">服务器注册错误</string>
+    <string name="register_server_fail_link">注册失败，服务器连接错误</string>
+    <string name="register_server_success">注册成功</string>
+    <string name="register_layout_cancel">取消</string>
+    <string name="register_layout_finish">完成</string>
+
+    <!--PhotoDialogActivity-->
+    <string name="photo_dialog_email_input">请输入接收邮箱</string>
+    <string name="photo_dialog_email_error_type">邮件格式出错</string>
+    <string name="photo_dialog_email_sending">正在发送邮件，请稍后...</string>
+    <string name="photo_dialog_email_error">发送图片出错</string>
+    <string name="photo_dialog_email_success">发送图片成功，请注意查看邮件</string>
+    <string name="photo_dialog_layout_replay">重拍</string>
+    <string name="photo_dialog_layout_send">发送</string>
+
+    <!--QueryMessageDialogActivity-->
+    <string name="query_dialog_detect_success">识别成功，正在获取数据，请稍后...</string>
+    <string name="query_dialog_layout_lable">识别人脸进入信息查询</string>
+
+    <!--CustomerInfoActivity-->
+    <string name="info_data_error">数据出错</string>
+    <string name="info_layout_tab1">积分</string>
+    <string name="info_layout_tab2">会员等级</string>
+    <string name="info_layout_tab3">优惠券</string>
+    <string name="info_layout_edit">编辑</string>
+    <string name="info_layout_close">关闭</string>
+
+    <!--PerfectMessageActivity-->
+    <string name="perfect_save_success">保存成功</string>
+    <string name="perfect_save_fail">保存失败</string>
+    <string name="perfect_tags_loading">正在加载标签</string>
+    <string name="perfect_tags_error">请求标签失败</string>
+    <string name="perfect_customer_info_error">数据获取出错，请重新尝试</string>
+    <string name="perfect_code">获取验证码</string>
+    <string name="perfect_code_again">重新获取验证码</string>
+    <string name="perfect_next">下一步</string>
+    <string name="perfect_save">保存</string>
+    <string name="perfect_saveing">正在保存数据</string>
+    <string name="perfect_layout_data">完善资料</string>
+    <string name="perfect_layout_name_input">请输入姓名</string>
+    <string name="perfect_layout_age_input">请输入年龄</string>
+    <string name="perfect_layout_email_input">请输入邮箱</string>
+    <string name="perfect_layout_phone_input">请输入手机号码</string>
+    <string name="perfect_layout_code_input">请输入验证码</string>
+
+    <!--DialogUtil-->
+    <string name="dialog_register">您还未进行过注册，是否进行注册？</string>
+    <string name="dialog_back_main">是否返回首页？</string>
+    <string name="dialog_back_game">是否退出游戏？一旦退出，游戏记录将丢失</string>
+    <string name="dialog_perfect_message">是否完善信息，完善信息更方便您接收优惠通知</string>
+    <string name="dialog_sure">确定</string>
+    <string name="dialog_cancel">取消</string>
+
+    <!--ValidateUtil-->
+    <string name="validate_not_empty">不能为空</string>
+    <string name="validate_age_error">年龄不规范</string>
+    <string name="validate_phone_error">电话号码不规范</string>
+    <string name="validate_code_error">验证码不规范</string>
+    <string name="validate_gender_error">性别验证不规范</string>
+    <string name="validate_email_error">邮箱验证不规范</string>
+
+    <string-array name="names">
+        <item>P1</item>
+        <item>P2</item>
+        <item>P3</item>
+        <item>P4</item>
+        <item>P5</item>
+        <item>P6</item>
+        <item>P7</item>
+    </string-array>
+
+    <string-array name="icons">
+        <item>iphone</item>
+        <item>iphone</item>
+        <item>iphone</item>
+        <item>iphone</item>
+        <item>iphone</item>
+        <item>iphone</item>
+        <item>iphone</item>
+    </string-array>
+
+    <string-array name="colors">
+        <item>#fef9f7</item>
+        <item>#fbc6a9</item>
+        <item>#ffdecc</item>
+        <item>#fbc6a9</item>
+        <item>#ffdecc</item>
+        <item>#fbc6a9</item>
+        <item>#ffdecc</item>
+    </string-array>
+</resources>

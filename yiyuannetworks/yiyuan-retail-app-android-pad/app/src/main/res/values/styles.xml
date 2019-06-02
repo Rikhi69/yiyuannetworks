@@ -1,0 +1,345 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="full" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowFullscreen">true</item>
+    </style>
+    <style name="dialogstyle">
+        <!--设置dialog的背景-->
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <!--设置Dialog的windowFrame框为无-->
+        <item name="android:windowFrame">@null</item>
+        <!--设置无标题-->
+        <item name="android:windowNoTitle">true</item>
+        <!--是否浮现在activity之上-->
+        <item name="android:windowIsFloating">true</item>
+        <!--是否半透明-->
+        <item name="android:windowIsTranslucent">true</item>
+        <!--设置窗口内容不覆盖-->
+        <item name="android:windowContentOverlay">@null</item>
+        <!--设置动画，在这里使用让它继承系统的Animation.Dialog-->
+        <item name="android:windowAnimationStyle">@android:style/Animation.Dialog</item>
+        <!--背景是否模糊显示-->
+        <item name="android:backgroundDimEnabled">true</item>
+    </style>
+    <style name="text_18_c14748">
+        <item name="android:textSize">18dip</item>
+        <item name="android:textColor">#c14748</item>
+    </style>
+
+    <style name="text_24_c14748">
+        <item name="android:textSize">24dip</item>
+        <item name="android:textColor">#c14748</item>
+    </style>
+
+    <style name="text_18_4C89DE">
+        <item name="android:textSize">18dip</item>
+        <item name="android:textColor">#4C89DE</item>
+    </style>
+
+    <style name="text_12_9e9e9e">
+        <item name="android:textSize">12dip</item>
+        <item name="android:textColor">#9E9E9E</item>
+    </style>
+
+    <style name="text_13_9E9E9E">
+        <item name="android:textSize">13dip</item>
+        <item name="android:textColor">#9E9E9E</item>
+    </style>
+
+
+    <style name="text_13_888888">
+        <item name="android:textSize">13dip</item>
+        <item name="android:textColor">#888888</item>
+    </style>
+
+    <style name="text_14_899198">
+        <item name="android:textSize">14dip</item>
+        <item name="android:textColor">#899198</item>
+    </style>
+
+    <style name="text_13_fa5259">
+        <item name="android:textSize">14dip</item>
+        <item name="android:textColor">#fa5259</item>
+    </style>
+
+    <style name="text_13_4c5359">
+        <item name="android:textSize">13dip</item>
+        <item name="android:textColor">#4c5359</item>
+    </style>
+
+    <style name="text_12_ffffff">
+        <item name="android:textSize">12dip</item>
+        <item name="android:textColor">#ffffff</item>
+    </style>
+
+    <style name="text_14_ffffff">
+        <item name="android:textSize">14dip</item>
+        <item name="android:textColor">#ffffff</item>
+    </style>
+
+    <style name="text_15_ffffff">
+        <item name="android:textSize">15dip</item>
+        <item name="android:textColor">#ffffff</item>
+    </style>
+
+    <style name="text_16_ffffff">
+        <item name="android:textSize">16dip</item>
+        <item name="android:textColor">#ffffff</item>
+    </style>
+
+    <style name="text_17_ffffff">
+        <item name="android:textSize">17dip</item>
+        <item name="android:textColor">#ffffff</item>
+    </style>
+
+    <style name="text_18_ffffff">
+        <item name="android:textSize">18dip</item>
+        <item name="android:textColor">#ffffff</item>
+    </style>
+
+    <style name="text_50_ffffff_b">
+        <item name="android:textSize">50dip</item>
+        <item name="android:textColor">#ffffff</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="text_30_ffffff">
+        <item name="android:textSize">30dip</item>
+        <item name="android:textColor">#ffffff</item>
+    </style>
+
+    <style name="text_22_ffffff">
+        <item name="android:textSize">22dip</item>
+        <item name="android:textColor">#ffffff</item>
+    </style>
+
+    <style name="text_14_62696f">
+        <item name="android:textSize">14dip</item>
+        <item name="android:textColor">#62696f</item>
+    </style>
+
+    <style name="text_18_62696f">
+        <item name="android:textSize">18dip</item>
+        <item name="android:textColor">#62696f</item>
+    </style>
+
+    <style name="text_10_686868">
+        <item name="android:textSize">10dip</item>
+        <item name="android:textColor">#686868</item>
+    </style>
+
+    <style name="text_14_686868">
+        <item name="android:textSize">14dip</item>
+        <item name="android:textColor">#686868</item>
+    </style>
+
+    <style name="text_12_333333">
+        <item name="android:textSize">12dip</item>
+        <item name="android:textColor">#333333</item>
+    </style>
+
+    <style name="text_13_333333">
+        <item name="android:textSize">13dip</item>
+        <item name="android:textColor">#333333</item>
+    </style>
+
+    <style name="text_14_333333">
+        <item name="android:textSize">14dip</item>
+        <item name="android:textColor">#333333</item>
+    </style>
+
+    <style name="text_14_aaaaaa">
+        <item name="android:textSize">14dip</item>
+        <item name="android:textColor">#aaaaaa</item>
+    </style>
+
+    <style name="text_14_090909">
+        <item name="android:textSize">14dip</item>
+        <item name="android:textColor">#090909</item>
+    </style>
+
+    <style name="text_15_090909">
+        <item name="android:textSize">15dip</item>
+        <item name="android:textColor">#090909</item>
+    </style>
+
+    <style name="text_11_000000">
+        <item name="android:textSize">11dip</item>
+        <item name="android:textColor">#000000</item>
+    </style>
+
+    <style name="text_12_000000">
+        <item name="android:textSize">12dip</item>
+        <item name="android:textColor">#000000</item>
+    </style>
+
+    <style name="text_13_000000">
+        <item name="android:textSize">13dip</item>
+        <item name="android:textColor">#000000</item>
+    </style>
+
+    <style name="text_14_000000">
+        <item name="android:textSize">14dip</item>
+        <item name="android:textColor">#000000</item>
+    </style>
+
+    <style name="text_16_000000">
+        <item name="android:textSize">16dip</item>
+        <item name="android:textColor">#000000</item>
+    </style>
+
+    <style name="text_18_000000">
+        <item name="android:textSize">18dip</item>
+        <item name="android:textColor">#000000</item>
+    </style>
+
+    <style name="text_22_00000">
+        <item name="android:textSize">22dip</item>
+        <item name="android:textColor">#000000</item>
+    </style>
+
+    <style name="text_13_ffffff">
+        <item name="android:textSize">13dip</item>
+        <item name="android:textColor">#ffffff</item>
+    </style>
+
+    <style name="text_50_ffffff">
+        <item name="android:textSize">50dip</item>
+        <item name="android:textColor">#ffffff</item>
+    </style>
+
+    <style name="text_51_ffffff_b">
+        <item name="android:textSize">51dip</item>
+        <item name="android:textColor">#ffffff</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="text_11_999999">
+        <item name="android:textSize">11dip</item>
+        <item name="android:textColor">#999999</item>
+    </style>
+
+    <style name="text_12_999999">
+        <item name="android:textSize">12dip</item>
+        <item name="android:textColor">#999999</item>
+    </style>
+
+    <style name="text_13_999999">
+        <item name="android:textSize">13dip</item>
+        <item name="android:textColor">#999999</item>
+    </style>
+
+    <style name="text_14_999999">
+        <item name="android:textSize">14dip</item>
+        <item name="android:textColor">#999999</item>
+    </style>
+
+    <style name="text_16_4a4a4a">
+        <item name="android:textSize">16dip</item>
+        <item name="android:textColor">#4a4a4a</item>
+    </style>
+
+    <style name="text_15_a4aab3">
+        <item name="android:textSize">15dip</item>
+        <item name="android:textColor">#a4aab3</item>
+    </style>
+
+    <style name="text_15_4289ff">
+        <item name="android:textSize">15dip</item>
+        <item name="android:textColor">#4289ff</item>
+    </style>
+
+    <style name="text_12_186DB7">
+        <item name="android:textSize">12dip</item>
+        <item name="android:textColor">#186db7</item>
+    </style>
+
+    <style name="text_13_186db7">
+        <item name="android:textSize">13dip</item>
+        <item name="android:textColor">#186db7</item>
+    </style>
+
+    <style name="text_14_186db7">
+        <item name="android:textSize">14dip</item>
+        <item name="android:textColor">#186db7</item>
+    </style>
+
+    <style name="text_15_186DB7_b">
+        <item name="android:textStyle">bold</item>
+        <item name="android:textSize">15dip</item>
+        <item name="android:textColor">#186DB7</item>
+    </style>
+
+    <style name="text_16_186DB7">
+        <item name="android:textSize">16dip</item>
+        <item name="android:textColor">#186DB7</item>
+    </style>
+
+    <style name="text_13_6c6c6c">
+        <item name="android:textSize">13dip</item>
+        <item name="android:textColor">#6c6c6c</item>
+    </style>
+
+    <style name="text_14_6c6c6c">
+        <item name="android:textSize">14dip</item>
+        <item name="android:textColor">#6c6c6c</item>
+    </style>
+
+    <style name="text_12_090909">
+        <item name="android:textSize">12dip</item>
+        <item name="android:textColor">#090909</item>
+    </style>
+
+    <style name="text_14_fe2a32">
+        <item name="android:textSize">14dip</item>
+        <item name="android:textColor">#FE2A32</item>
+    </style>
+
+    <style name="text_22_fe2a32">
+        <item name="android:textSize">22dip</item>
+        <item name="android:textColor">#FE2A32</item>
+    </style>
+
+    <style name="text_14_006400">
+        <item name="android:textSize">14dip</item>
+        <item name="android:textColor">#006400</item>
+    </style>
+
+
+    <style name="text_22_006400">
+        <item name="android:textSize">22dip</item>
+        <item name="android:textColor">#006400</item>
+    </style>
+
+
+    <style name="text_12_484848">
+        <item name="android:textSize">12dip</item>
+        <item name="android:textColor">#484848</item>
+    </style>
+    <!--一级标题-->
+    <style name="text_19_000000_b">
+        <item name="android:textSize">19dip</item>
+        <item name="android:textColor">#000000</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <!--输入内容-->
+    <style name="text_18_333333">
+        <item name="android:textSize">18dip</item>
+        <item name="android:textColor">#333333</item>
+    </style>
+
+    <style name="text_12_e0b369">
+        <item name="android:textSize">12dp</item>
+        <item name="android:textColor">#e0b369</item>
+    </style>
+</resources>

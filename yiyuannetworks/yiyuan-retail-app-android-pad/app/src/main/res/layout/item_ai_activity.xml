@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:gravity="center"
+    android:id="@+id/item_ll"
+    android:layout_margin="5dp"
+    android:padding="30dp"
+    android:layout_height="wrap_content">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="80dp"
+        android:id="@+id/item_iv"/>
+    <TextView
+        android:gravity="center"
+        android:textColor="@color/white"
+        android:text="自助注册"
+        android:textSize="42px"
+        android:layout_marginTop="5dp"
+        android:id="@+id/item_tv"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"/>
+
+</LinearLayout>

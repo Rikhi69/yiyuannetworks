@@ -1,0 +1,245 @@
+<resources>
+    <string name="app_name">自助终端机</string>
+
+    <string name="debug_tip">功能开发中</string>
+    <string name="reopen">重启生效</string>
+    <string name="rect">人脸大小 : </string>
+    <string name="blur">模糊度 : </string>
+    <string name="light">亮度 : </string>
+    <string name="score">匹配度 : </string>
+
+    <string name="sure">是</string>
+    <string name="no">否</string>
+    <string name="finish">结束 ?</string>
+    <string name="no_face">没有人脸</string>
+    <string name="load_camera">相机加载中</string>
+    <string name="load">加载中</string>
+    <string name="load_done">加载完成</string>
+    <string name="check">检查</string>
+    <string name="press_exit">再按一次退出程序</string>
+    <string name="init_fail">初始化失败</string>
+    <string name="init_close">没有开启注册功能</string>
+
+    <string name="authorization">授权</string>
+    <string name="authorization_not">不需要授权</string>
+    <string name="authorization_fail">授权失败</string>
+    <string name="authorization_success">授权成功</string>
+    <string name="authorization_had">已经授权</string>
+
+    <string name="bmpregist">图片注册</string>
+    <string name="choose">选择图片</string>
+    <string name="start">开始解析</string>
+    <string name="register">注册</string>
+    <string name="registered">已注册</string>
+    <string name="unregistered">未注册</string>
+    <string name="register_success">注册成功</string>
+    <string name="register_fail">注册失败</string>
+    <string name="name_empty">名字为空</string>
+
+    <string name="yuvregist">相机注册</string>
+    <string name="reopen_activity">请重新打开</string>
+    <string name="not_center">人脸不居中</string>
+    <string name="rise">抬头</string>
+    <string name="down">低头</string>
+    <string name="keep_left">靠左</string>
+    <string name="keep_right">靠右</string>
+    <string name="enter_register">输入注册信息</string>
+    <string name="name">名称</string>
+    <string name="cancel">取消</string>
+    <string name="done">完成</string>
+
+    <string name="detect">探测</string>
+    <string name="slot_card">刷卡</string>
+    <string name="reset">重置</string>
+    <string name="random_register">随机注册</string>
+    <string name="match_success">匹配成功</string>
+    <string name="match_fail">匹配失败</string>
+    <string name="parse_begin">解析开始</string>
+    <string name="parse_success">解析成功</string>
+    <string name="parse_fail">解析失败</string>
+
+    <string name="list">注册列表</string>
+    <string name="delete">删除</string>
+    <string name="deleting">删除中</string>
+    <string name="delete_all">删除所有</string>
+    <string name="selectall">选中所有</string>
+    <string name="selectpage">选中当前</string>
+    <string name="select">已选 : </string>
+    <string name="selectmore">选中更多</string>
+    <string name="update_success">更新成功</string>
+    <string name="update_fail">更新失败</string>
+    <string name="delete_fail">删除失败</string>
+
+    <string name="bulkregist">批量注册</string>
+    <string name="file_path">文件地址</string>
+    <string name="file_size">文件个数</string>
+    <string name="dir_empty">文件夹为空</string>
+    <string name="register_all">注册所有</string>
+
+    <string name="config">配置</string>
+    <string name="set">设置</string>
+    <string name="set_success">设置成功</string>
+    <string name="set_fail">设置失败</string>
+    <string name="auto">自动</string>
+    <string name="preview_size">预览值</string>
+    <string name="tracker_mode">追踪模式</string>
+    <string name="detect_mode">探测模式</string>
+    <string name="live_mode">活体模式</string>
+    <string name="live_mode_normal">正常</string>
+    <string name="live_mode_auto">自动</string>
+    <string name="recognition_mode_track1">追踪1</string>
+    <string name="recognition_mode_track2">追踪2</string>
+    <string name="recognition_mode_detect">仅探测</string>
+    <string name="recognition_mode_recognition">仅识别</string>
+    <string name="register_db">注册库</string>
+    <string name="detect_db">探测库</string>
+    <string name="db_default">默认库</string>
+    <string name="db_ex">扩展库</string>
+    <string name="debug">调试</string>
+    <string name="savefake">保存拒真图</string>
+    <string name="savelive">保存攻破图</string>
+    <string name="savetan">保存Tan图</string>
+    <string name="saveblur">保存模糊图</string>
+    <string name="savenoface">保存无人脸图</string>
+    <string name="savess">保存相似度小图</string>
+    <string name="savet">保存追踪人脸</string>
+    <string name="lr">人脸框左右镜像</string>
+    <string name="tb">人脸框上下镜像</string>
+    <string name="camera_id">相机ID</string>
+    <string name="camera_degree">相机数据角度</string>
+    <string name="preview_degree">相机预览角度</string>
+    <string name="tracker_count">追踪次数</string>
+    <string name="tracker_w">追踪 - W</string>
+    <string name="tracker_h">追踪 - H</string>
+    <string name="detect_face_rect">追踪筛选人脸最小值</string>
+    <string name="detect_rate">探测比例</string>
+    <string name="tracker_size">追踪最小边长</string>
+    <string name="feature_size">提取特征值边长</string>
+    <string name="detect_size">探测最小边长</string>
+    <string name="value_face_minima">注册人脸最小宽</string>
+    <string name="value_unlock">识别值</string>
+    <string name="value_liveness">活体值</string>
+    <string name="value_liveness2">活体值2</string>
+    <string name="value_liveness3">活体值3</string>
+    <string name="value_fake_count">非活帧数</string>
+    <string name="value_live_count">活体帧数</string>
+    <string name="value_detect_light_max">最大亮度(探测)</string>
+    <string name="value_detect_light_min">最小亮度(探测)</string>
+    <string name="value_detect_blur">模糊度(探测)</string>
+    <string name="value_detect_blur_new">新模糊度(探测)</string>
+    <string name="value_register_light_max">最大亮度(注册)</string>
+    <string name="value_register_light_min">最小亮度(注册)</string>
+    <string name="value_register_blur">模糊度(注册)</string>
+    <string name="switch_liveness">探测包含活体</string>
+    <string name="switch_recognition">探测包含识别</string>
+
+    <string name="infrared_mode">红外模型</string>
+    <string name="infrared_value">红外识别值</string>
+    <string name="saveinfrared">保存红外图C</string>
+    <string name="saveinfraredlive">保存红外活体图J</string>
+    <string name="saveinfraredfake">保存红外非活图J</string>
+    <string name="infrared_switch">探测开启红外识别</string>
+    <!--自主注册机的文本信息-->
+    <!--AiMainActivity-->
+    <string name="ai_main_welcome">欢迎使用自助服务终端</string>
+    <string name="ai_main_tab_register">自助注册</string>
+    <string name="ai_main_tab_game">游戏</string>
+    <string name="ai_main_tab_photo">拍照</string>
+    <string name="ai_main_tab_message">信息查询</string>
+    <string name="ai_main_tab_money">红包</string>
+
+    <!--RegisterActivity-->
+    <string name="register_dialog_photo_please">请先拍照</string>
+    <string name="register_saving">正在保存注册信息...</string>
+    <string name="register_upload_img_fail">图片上传失败</string>
+    <string name="register_server_fail">服务器注册错误</string>
+    <string name="register_server_fail_link">注册失败，服务器连接错误</string>
+    <string name="register_server_success">注册成功</string>
+    <string name="register_layout_cancel">取消</string>
+    <string name="register_layout_finish">完成</string>
+
+    <!--PhotoDialogActivity-->
+    <string name="photo_dialog_email_input">请输入接收邮箱</string>
+    <string name="photo_dialog_email_error_type">邮件格式出错</string>
+    <string name="photo_dialog_email_sending">正在发送邮件，请稍后...</string>
+    <string name="photo_dialog_email_error">发送图片出错</string>
+    <string name="photo_dialog_email_success">发送图片成功，请注意查看邮件</string>
+    <string name="photo_dialog_layout_replay">重拍</string>
+    <string name="photo_dialog_layout_send">发送</string>
+
+    <!--QueryMessageDialogActivity-->
+    <string name="query_dialog_detect_success">识别成功，正在获取数据，请稍后...</string>
+    <string name="query_dialog_layout_lable">识别人脸进入信息查询</string>
+
+    <!--CustomerInfoActivity-->
+    <string name="info_data_error">数据出错</string>
+    <string name="info_layout_tab1">积分</string>
+    <string name="info_layout_tab2">会员等级</string>
+    <string name="info_layout_tab3">优惠券</string>
+    <string name="info_layout_edit">编辑</string>
+    <string name="info_layout_close">关闭</string>
+
+    <!--PerfectMessageActivity-->
+    <string name="perfect_save_success">保存成功</string>
+    <string name="perfect_save_fail">保存失败</string>
+    <string name="perfect_tags_loading">正在加载标签</string>
+    <string name="perfect_tags_error">请求标签失败</string>
+    <string name="perfect_customer_info_error">数据获取出错，请重新尝试</string>
+    <string name="perfect_code">获取验证码</string>
+    <string name="perfect_code_again">重新获取验证码</string>
+    <string name="perfect_next">下一步</string>
+    <string name="perfect_save">保存</string>
+    <string name="perfect_saveing">正在保存数据</string>
+    <string name="perfect_layout_data">完善资料</string>
+    <string name="perfect_layout_name_input">请输入姓名</string>
+    <string name="perfect_layout_age_input">请输入年龄</string>
+    <string name="perfect_layout_email_input">请输入邮箱</string>
+    <string name="perfect_layout_phone_input">请输入手机号码</string>
+    <string name="perfect_layout_code_input">请输入验证码</string>
+
+    <!--DialogUtil-->
+    <string name="dialog_register">您还未进行过注册，是否进行注册？</string>
+    <string name="dialog_back_main">是否返回首页？</string>
+    <string name="dialog_back_game">是否退出游戏？一旦退出，游戏记录将丢失</string>
+    <string name="dialog_perfect_message">是否完善信息，完善信息更方便您接收优惠通知</string>
+    <string name="dialog_sure">确定</string>
+    <string name="dialog_cancel">取消</string>
+
+    <!--ValidateUtil-->
+    <string name="validate_not_empty">不能为空</string>
+    <string name="validate_age_error">年龄不规范</string>
+    <string name="validate_phone_error">电话号码不规范</string>
+    <string name="validate_code_error">验证码不规范</string>
+    <string name="validate_gender_error">性别验证不规范</string>
+    <string name="validate_email_error">邮箱验证不规范</string>
+
+    <string-array name="names">
+        <item>P1</item>
+        <item>P2</item>
+        <item>P3</item>
+        <item>P4</item>
+        <item>P5</item>
+        <item>P6</item>
+        <item>P7</item>
+    </string-array>
+
+    <string-array name="icons">
+        <item>iphone</item>
+        <item>iphone</item>
+        <item>iphone</item>
+        <item>iphone</item>
+        <item>iphone</item>
+        <item>iphone</item>
+        <item>iphone</item>
+    </string-array>
+
+    <string-array name="colors">
+        <item>#fef9f7</item>
+        <item>#fbc6a9</item>
+        <item>#ffdecc</item>
+        <item>#fbc6a9</item>
+        <item>#ffdecc</item>
+        <item>#fbc6a9</item>
+        <item>#ffdecc</item>
+    </string-array>
+</resources>
