@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <RelativeLayout
+        android:id="@+id/shop_register_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/white"
+        android:orientation="vertical">
+
+
+        <LinearLayout
+            android:id="@+id/gender_view"
+            android:layout_width="wrap_content"
+            android:layout_height="20dp"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:gravity="center_vertical">
+
+            <com.lxl.shop.widget.StockTextView
+                android:id="@+id/gender_man"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="男"
+                app:stock_text_drawable_height="20dp"
+                app:stock_text_drawable_padding="5dp"
+                app:stock_text_drawable_src="@drawable/shop_register_man"
+                app:stock_text_drawable_width="20dp" />
+
+            <com.lxl.shop.widget.StockTextView
+                android:id="@+id/gender_woman"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:text="女"
+                app:stock_text_drawable_height="20dp"
+                app:stock_text_drawable_padding="5dp"
+                app:stock_text_drawable_src="@drawable/shop_register_woman"
+                app:stock_text_drawable_width="20dp" />
+
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:id="@+id/add_customer_container"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@id/gender_view"
+            android:focusable="true"
+            android:focusableInTouchMode="true"
+            android:orientation="vertical" />
+    </RelativeLayout>
+
+</ScrollView>

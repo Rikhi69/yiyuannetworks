@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.aiwinn.gaa.AgeAndGenderActivity">
+
+    <SurfaceView
+        android:id="@+id/sv_recording"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+    <com.aiwinn.gaa.DrawImageView
+        android:id="@+id/imageView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+    <FrameLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="right"
+        android:padding="10dp"
+        android:layout_alignParentRight="true"
+        android:orientation="horizontal"
+        android:background="@android:color/transparent">
+        <ImageView
+            android:layout_width="wrap_content"
+            android:id="@+id/btn_camera_switch"
+            android:layout_height="wrap_content"
+            android:src="@drawable/selector_rewardcamera"/>
+    </FrameLayout>
+
+</FrameLayout>

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/shop_light_gray"
+    android:orientation="vertical">
+
+
+    <com.lxl.shop.widget.StockTitleView
+        android:id="@+id/page_title"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_alignParentTop="true"
+        android:background="@color/shop_blue"
+        app:stock_title_text_msg="消费记录" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp">
+
+        <TextView
+            style="@style/text_18_000000"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:text="总计" />
+
+        <TextView
+            android:id="@+id/sum_price_text"
+            style="@style/text_24_c14748"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true" />
+
+    </RelativeLayout>
+
+    <ListView
+        android:id="@+id/shopping_history_list"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+</LinearLayout>
+

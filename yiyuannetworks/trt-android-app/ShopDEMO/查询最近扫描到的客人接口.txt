@@ -1,0 +1,15 @@
+查询最近扫描到的客人接口：identify-record
+查询request：
+{
+"customerId":"customerId"
+}
+查询response:
+[{
+		"customerId": "10003",
+		"customerName": "King"
+	},
+	{
+		"customerId": "10004",
+		"customerName": "King2"
+	}
+]

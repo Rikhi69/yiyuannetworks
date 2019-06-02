@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:background="@color/white"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent">
+
+    <include layout="@layout/activity_title"/>
+
+    <TextView
+        android:id="@+id/msg"
+        android:padding="@dimen/dp_10"
+        android:gravity="center_vertical"
+        android:textColor="@color/baseColor"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dp_100"/>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dp_1"
+        android:background="@color/baseColor"/>
+
+    <TextView
+        android:id="@+id/begin"
+        android:layout_margin="@dimen/dp_10"
+        android:gravity="center"
+        android:text="@string/register_all"
+        android:background="@drawable/tv_selector_bg"
+        android:textColor="@drawable/tv_selector_color"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dp_30"/>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dp_1"
+        android:background="@color/baseColor"/>
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/rv"
+        android:scrollbars="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"/>
+
+</LinearLayout>

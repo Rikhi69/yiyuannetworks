@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent">
+
+    <SurfaceView
+        android:id="@+id/sv"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+
+    <com.aiwinn.faceattendance.widget.MaskView
+        android:id="@+id/kcfmv"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal">
+
+        <View
+            android:layout_width="0dp"
+            android:layout_weight="2.5"
+            android:layout_height="match_parent"/>
+
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/rv"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="match_parent"/>
+
+    </LinearLayout>
+
+    <RelativeLayout
+        android:id="@+id/other"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/tvcompare"
+            android:text="@string/slot_card"
+            android:padding="@dimen/dp_10"
+            android:layout_centerHorizontal="true"
+            android:layout_margin="@dimen/dp_5"
+            android:background="@drawable/tv_selector_bg"
+            android:textColor="@drawable/tv_selector_color"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+        <ImageView
+            android:id="@+id/exchangeCamera"
+            android:visibility="gone"
+            android:src="@drawable/camerasw_touming"
+            android:layout_toLeftOf="@id/tvcompare"
+            android:scaleType="center"
+            android:layout_margin="@dimen/dp_5"
+            android:layout_width="@dimen/dp_50"
+            android:layout_height="@dimen/dp_50"/>
+
+        <TextView
+            android:id="@+id/tvcomparecancel"
+            android:text="@string/reset"
+            android:padding="@dimen/dp_10"
+            android:layout_toRightOf="@id/tvcompare"
+            android:layout_margin="@dimen/dp_5"
+            android:background="@drawable/tv_selector_bg"
+            android:textColor="@drawable/tv_selector_color"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+        <TextView
+            android:id="@+id/tvregister"
+            android:text="@string/random_register"
+            android:padding="@dimen/dp_10"
+            android:layout_toRightOf="@id/tvcomparecancel"
+            android:layout_margin="@dimen/dp_5"
+            android:background="@drawable/tv_selector_bg"
+            android:textColor="@drawable/tv_selector_color"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+        <LinearLayout
+            android:layout_alignParentBottom="true"
+            android:layout_margin="@dimen/dp_5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center_vertical">
+
+            <ImageView
+                android:id="@+id/imcomparewait"
+                android:scaleType="fitXY"
+                android:layout_margin="@dimen/dp_5"
+                android:layout_width="120dp"
+                android:layout_height="160dp"/>
+
+            <TextView
+                android:id="@+id/tvcomparemsg"
+                android:padding="@dimen/dp_10"
+                android:layout_margin="@dimen/dp_5"
+                android:textColor="@color/white"
+                android:textSize="@dimen/sp_18"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+
+            <ImageView
+                android:id="@+id/imcomparesucc"
+                android:scaleType="fitXY"
+                android:layout_margin="@dimen/dp_5"
+                android:layout_width="120dp"
+                android:layout_height="160dp"/>
+
+        </LinearLayout>
+
+    </RelativeLayout>
+
+    <TextView
+        android:id="@+id/message"
+        android:textSize="@dimen/sp_18"
+        android:textColor="@color/red"
+        android:layout_margin="@dimen/dp_10"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <ImageView
+        android:id="@+id/back"
+        android:src="@drawable/title_ic_back"
+        android:layout_margin="@dimen/dp_10"
+        android:padding="@dimen/dp_10"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+</RelativeLayout>

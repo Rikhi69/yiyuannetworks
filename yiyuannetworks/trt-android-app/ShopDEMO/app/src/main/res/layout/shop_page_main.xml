@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_alignParentTop="true"
+        android:background="@color/shop_bg">
+
+        <ImageView
+            android:id="@+id/back"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="15dp"
+            android:background="@drawable/title_ic_back" />
+
+        <TextView
+            style="@style/text_18_ffffff"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:text="新零售" />
+
+    </RelativeLayout>
+
+
+    <LinearLayout
+        android:id="@+id/user_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:layout_marginTop="100dp"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:background="@drawable/admin_icon" />
+
+        <TextView
+            style="@style/text_18_333333"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="管理员名称" />
+
+        <TextView
+            style="@style/text_14_999999"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="职位名称" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/action_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="20dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:background="#e3eaec"
+        android:divider="@drawable/stock_big_divider"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:padding="15dp"
+        android:showDividers="middle">
+
+        <Button
+            android:id="@+id/record_customer"
+            style="@style/text_18_ffffff"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/shop_button"
+            android:text="会员记录" />
+
+        <Button
+            android:id="@+id/add_customer"
+            style="@style/text_18_ffffff"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/shop_button"
+            android:text="新建会员" />
+
+        <Button
+            android:id="@+id/detail_customer"
+            style="@style/text_18_ffffff"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/shop_button"
+            android:text="会员列表" />
+
+        <Button
+            android:id="@+id/test"
+            style="@style/text_18_ffffff"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/shop_button"
+            android:text="设置" />
+
+    </LinearLayout>
+
+
+</RelativeLayout>

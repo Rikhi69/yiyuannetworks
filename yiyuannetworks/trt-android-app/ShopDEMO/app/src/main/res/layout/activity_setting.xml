@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#eeeeee"
+    tools:context="com.lxl.SettingActivity">
+
+    <LinearLayout
+        android:id="@+id/rl_ll_1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:focusable="true"
+        android:focusableInTouchMode="true"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_alignParentTop="true"
+            android:background="@color/shop_bg">
+
+            <ImageView
+                android:id="@+id/back"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="15dp"
+                android:background="@drawable/title_ic_back" />
+
+            <TextView
+                style="@style/text_18_ffffff"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:text="设置" />
+            <TextView
+                android:id="@+id/finish"
+                style="@style/text_18_ffffff"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:layout_alignParentRight="true"
+                android:layout_marginRight="10dp"
+                android:text="完成" />
+        </RelativeLayout>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:textSize="11dp"
+            android:text="服务器地址"/>
+
+        <EditText
+            android:id="@+id/et_url"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:background="@color/white"
+            android:padding="10dp"
+            android:textSize="16dp"
+            android:hint="请输入"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:textSize="11dp"
+            android:visibility="gone"
+            android:text="平台"/>
+
+        <RadioGroup
+            android:layout_width="match_parent"
+            android:visibility="gone"
+            android:layout_height="wrap_content">
+            <RadioButton
+                android:id="@+id/plat_mobile"
+                android:tag="mobile"
+                android:background="@color/white"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="10dp"
+                android:text="手机"/>
+            <RadioButton
+                android:id="@+id/plat_pad"
+                android:tag="pad"
+                android:padding="10dp"
+                android:layout_marginTop="1dp"
+                android:background="@color/white"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="盒子"/>
+        </RadioGroup>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:visibility="gone"
+            android:padding="10dp"
+            android:textSize="11dp"
+            android:text="速率"/>
+
+        <EditText
+            android:id="@+id/et_count"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:background="@color/white"
+            android:padding="10dp"
+            android:visibility="gone"
+            android:textSize="16dp"
+            android:inputType="number"
+            android:hint="请输入1-5"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:visibility="gone"
+            android:textSize="11dp"
+            android:text="接入方式"/>
+
+        <CheckBox
+            android:id="@+id/cb_camera"
+            android:tag="camera"
+            android:visibility="gone"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/white"
+            android:padding="10dp"
+            android:text="USB" />
+        <CheckBox
+            android:id="@+id/cb_sdcard"
+            android:tag="sdcard"
+            android:visibility="gone"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="1dp"
+            android:background="@color/white"
+            android:padding="10dp"
+            android:text="Stream" />
+        <CheckBox
+            android:id="@+id/cb_video"
+            android:tag="video"
+            android:visibility="gone"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/white"
+            android:layout_marginTop="1dp"
+            android:padding="10dp"
+            android:text="Video" />
+
+    </LinearLayout>
+
+</ScrollView>

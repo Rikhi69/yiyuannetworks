@@ -1,0 +1,13 @@
+注册接口：
+注册request：
+{
+	"age": 30,
+	"gender": "男",
+	"imgUrl": "xxxx",
+	"faceId": "xxxx"
+}
+
+注册response:
+{
+	"id": 101,//返回服务器对应的序号就好了
+}

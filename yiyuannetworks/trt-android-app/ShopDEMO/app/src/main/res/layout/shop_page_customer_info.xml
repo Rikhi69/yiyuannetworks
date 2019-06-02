@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/shop_light_gray"
+    android:orientation="vertical">
+
+
+    <com.lxl.shop.widget.StockTitleView
+        android:id="@+id/page_title"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_alignParentTop="true"
+        android:background="@color/shop_blue"
+        app:stock_title_text_msg="用户信息" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        android:padding="10dp">
+
+        <TextView
+            style="@style/text_16_000000"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:text="头像" />
+
+        <com.lxl.shop.ui.ShopCircleImageView
+            android:id="@+id/customer_icon"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_alignParentRight="true" />
+
+    </RelativeLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:text="基础资料" />
+
+    <LinearLayout
+        android:id="@+id/customer_base_info"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        android:divider="@drawable/shop_gray_divider"
+        android:orientation="vertical"
+        android:padding="10dp"
+        android:showDividers="middle" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:text="其他资料" />
+
+    <LinearLayout
+        android:id="@+id/customer_other_info"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        android:divider="@drawable/shop_gray_divider"
+        android:orientation="vertical"
+        android:padding="10dp"
+        android:showDividers="middle" />
+</LinearLayout>
+

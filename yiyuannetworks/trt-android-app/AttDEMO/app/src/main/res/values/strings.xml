@@ -1,0 +1,112 @@
+<resources>
+    <string name="app_name">FaceDetectDemo</string>
+
+    <string name="sure">Sure</string>
+    <string name="no">No</string>
+    <string name="finish">Finish ?</string>
+    <string name="no_face">No Face</string>
+    <string name="load_camera">Loading Camera</string>
+    <string name="load">Loading</string>
+    <string name="load_done">Loading Done</string>
+    <string name="check">Check</string>
+    <string name="press_exit">Press Again Exit App</string>
+    <string name="init_fail">Init Fail</string>
+    <string name="init_close">Can not Open Register</string>
+
+    <string name="authorization">Authorization</string>
+    <string name="authorization_not">Not Need Authorization</string>
+    <string name="authorization_fail">Authorization Fail</string>
+    <string name="authorization_success">Authorization Success</string>
+    <string name="authorization_had">Had Authorization</string>
+
+    <string name="bmpregist">Register With Pic</string>
+    <string name="choose">Choose Pic</string>
+    <string name="start">Start Parse</string>
+    <string name="register">Register</string>
+    <string name="registered">Registered</string>
+    <string name="unregistered">UnRegistered</string>
+    <string name="register_success">Register Success</string>
+    <string name="register_fail">Register Fail</string>
+    <string name="name_empty">Name is Empty</string>
+
+    <string name="yuvregist">Regist With Yuv</string>
+    <string name="reopen_activity">Please Reopen Activity</string>
+    <string name="not_center">Face Not Center</string>
+    <string name="rise">Rise</string>
+    <string name="down">Down</string>
+    <string name="keep_left">Keep Left</string>
+    <string name="keep_right">Keep Right</string>
+    <string name="enter_register">Enter Register Message</string>
+    <string name="name">Name</string>
+    <string name="cancel">Cancel</string>
+    <string name="done">Done</string>
+
+    <string name="detect">Detect</string>
+    <string name="slot_card">Slot Card</string>
+    <string name="reset">Reset</string>
+    <string name="random_register">Random Register</string>
+    <string name="match_success">Match Success</string>
+    <string name="match_fail">Match Fail</string>
+    <string name="parse_begin">Parse Begin</string>
+    <string name="parse_success">Parse Success</string>
+    <string name="parse_fail">Parse Fail</string>
+
+    <string name="list">Register List</string>
+    <string name="delete">Delete</string>
+    <string name="deleting">Delete Now</string>
+    <string name="delete_all">Delete All</string>
+    <string name="selectall">Select All</string>
+    <string name="selectpage">Select Now</string>
+    <string name="select">Select : </string>
+    <string name="selectmore">Select More</string>
+    <string name="update_success">Update Success</string>
+    <string name="update_fail">Update Fail</string>
+    <string name="delete_fail">Delete Fail</string>
+
+    <string name="bulkregist">Bulk registration</string>
+    <string name="file_path">File Path</string>
+    <string name="file_size">File Size</string>
+    <string name="dir_empty">Dir Empty</string>
+    <string name="register_all">Register All</string>
+
+    <string name="config">Config</string>
+    <string name="set">Set</string>
+    <string name="set_success">Set Success</string>
+    <string name="set_fail">Set Fail</string>
+    <string name="auto">Auto</string>
+    <string name="preview_size">Camera Preview Size</string>
+    <string name="tracker_mode">Tracker Mode</string>
+    <string name="detect_mode">Detect Mode</string>
+    <string name="detect_mode_track">Detect Mode Tracker</string>
+    <string name="detect_mode_gaa">Detect Mode Gaa</string>
+    <string name="detect_mode_sm">Detect Mode SM</string>
+    <string name="debug">Debug</string>
+    <string name="saveblur">Save Blur</string>
+    <string name="savenoface">Save NoFace</string>
+    <string name="savess">Save Similarity Small</string>
+    <string name="lr">Face Rect Left x Right</string>
+    <string name="tb">Face Rect Top x Bottom</string>
+    <string name="camera_id">Camera ID</string>
+    <string name="camera_degree">Camera Degree</string>
+    <string name="preview_degree">Preview Degree</string>
+    <string name="tracker_count">Tracker Count</string>
+    <string name="tracker_w">Tracker Scale Width</string>
+    <string name="tracker_h">Tracker Scale Height</string>
+    <string name="detect_rate">Detect Rate</string>
+    <string name="tracker_size">Tracker Size</string>
+    <string name="feature_size">Extract Size</string>
+    <string name="detect_size">Detect Size</string>
+    <string name="value_face_minima">Register face minima</string>
+    <string name="value_unlock">Unlock Value</string>
+    <string name="value_liveness">Liveness Value</string>
+    <string name="value_detect_light_max">Max Light(SDK Detect)</string>
+    <string name="value_detect_light_min">Min Light(SDK Detect)</string>
+    <string name="value_detect_blur">Blur (SDK Detect)</string>
+    <string name="value_detect_blur_new">BlurNew (SDK Detect)</string>
+    <string name="value_register_light_max">Max Light(SDK Register)</string>
+    <string name="value_register_light_min">Min Light(SDK Register)</string>
+    <string name="value_register_blur">Blur (SDK Register)</string>
+    <string name="switch_liveness">Detect with Liveness</string>
+    <string name="switch_recognition">Detect with Recognition</string>
+
+</resources>

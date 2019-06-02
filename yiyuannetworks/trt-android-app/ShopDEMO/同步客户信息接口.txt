@@ -1,0 +1,45 @@
+查询最近扫描到的客人接口：
+查询request：//我这边传入的是customerId
+[
+	"3",
+	"4"
+]
+
+查询response:
+[{
+ 	"userModel": {
+ 		"compareScore": 0.0,
+ 		"id": 0,
+ 		"localImagePath": "/storage/emulated/0/aiwinn/attendance/pic/呵呵呵_kL8F9R.jpg",
+ 		"name": "呵呵呵",
+ 		"serverSync": false,
+ 		"userId": "5"
+ 	},
+ 	"address": "cccf",
+ 	"birthday": "19889111",
+ 	"email": "ccf@vc.com",
+ 	"gender": false,
+ 	"mobile": "15601012111",
+ 	"name": "ggg"，
+     "customerID":"10003",
+     "userImg":"http://xxxx.jpg"
+ },
+{
+ 	"userModel": {
+ 		"compareScore": 0.0,
+ 		"id": 0,
+ 		"localImagePath": "/storage/emulated/0/aiwinn/attendance/pic/呵呵呵_kL8F9R.jpg",
+ 		"name": "呵呵呵",
+ 		"serverSync": false,
+ 		"userId": "5"
+ 	},
+ 	"address": "cccf",
+ 	"birthday": "19889111",
+ 	"email": "ccf@vc.com",
+ 	"gender": false,
+ 	"mobile": "15601012111",
+ 	"name": "ggg"，
+     "customerID":"10004",
+     "userImg":"http://xxxx.jpg"
+ }
+]

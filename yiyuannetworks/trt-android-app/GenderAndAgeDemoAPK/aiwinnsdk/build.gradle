@@ -1,0 +1,2 @@
+configurations.maybeCreate("default")
+artifacts.add("default", file('GaaSDK201811122148_checkPgso_V1.1.4.aar'))

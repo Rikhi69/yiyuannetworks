@@ -1,0 +1,30 @@
+{
+	"customerName": "King",
+	"recordlist": [{
+			"date": "2018-11-24",
+			"shoppinglist": [{
+				"name": "商品1",
+				"price": 10000,
+				"count": 2
+			}, {
+				"name": "商品2",
+				"price": 20000,
+				"count": 3
+			}],
+			"desc": ""
+		}, {
+			"date": "2018-11-23",
+			"shoppinglist": [{
+				"name": "商品3",
+				"price": 10000,
+				"count": 2
+			}, {
+				"name": "商品4",
+				"price": 20000,
+				"count": 3
+			}],
+			"desc": ""
+		}
+
+	]
+}

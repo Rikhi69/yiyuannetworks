@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.aiwinn.gaa.MainActivity">
+
+
+    <TextView
+        android:id="@+id/tv_ageandgender"
+        android:layout_gravity="center"
+        android:background="@color/colorPrimary"
+        android:textColor="#FFFFFF"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="20dp"
+        android:text="年龄性别"/>
+
+    <TextView
+        android:id="@+id/config"
+        android:layout_below="@id/tv_ageandgender"
+        android:layout_marginTop="@dimen/dp_20"
+        android:layout_centerHorizontal="true"
+        android:padding="20dp"
+        android:gravity="center"
+        android:background="@color/colorPrimary"
+        android:textColor="#FFFFFF"
+        android:layout_width="100dp"
+        android:layout_height="60dp"
+        android:text="配置"/>
+
+    <TextView
+        android:id="@+id/version"
+        android:layout_alignParentBottom="true"
+        android:layout_margin="5dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+</RelativeLayout>

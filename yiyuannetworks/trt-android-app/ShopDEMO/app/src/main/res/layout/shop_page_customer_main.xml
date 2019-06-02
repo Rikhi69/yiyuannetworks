@@ -1,0 +1,196 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <com.lxl.shop.widget.StockTitleView
+        android:id="@+id/page_title"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:background="@color/shop_blue"
+        app:stock_title_text_msg="会员详情页" />
+
+
+    <RelativeLayout
+        android:id="@+id/customer_info_view"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:layout_margin="10dp"
+        android:background="@drawable/shop_customer_main_bg"
+        android:padding="10dp">
+
+        <TextView
+            android:id="@+id/customer_id"
+            style="@style/text_14_ffffff"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentTop="true" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:gravity="center_horizontal"
+            android:orientation="vertical">
+
+            <com.lxl.shop.ui.ShopCircleImageView
+                android:id="@+id/customer_icon"
+                android:layout_width="60dp"
+                android:layout_height="60dp" />
+
+            <TextView
+                android:id="@+id/customer_name"
+                style="@style/text_18_ffffff"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="会员名称" />
+
+        </LinearLayout>
+
+
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_margin="10dp"
+        android:gravity="center_vertical"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="40dp"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <TextView
+                style="@style/text_13_9E9E9E"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="积分" />
+
+            <TextView
+                style="@style/text_18_c14748"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="150" />
+
+        </LinearLayout>
+
+        <View
+            android:layout_width="1px"
+            android:layout_height="30dp"
+            android:background="@color/shop_register_item_line" />
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="40dp"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <TextView
+                style="@style/text_13_9E9E9E"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="会员登记" />
+
+            <TextView
+                style="@style/text_18_c14748"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="普通会员" />
+
+        </LinearLayout>
+
+        <View
+            android:layout_width="1px"
+            android:layout_height="30dp"
+            android:background="@color/shop_register_item_line" />
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="40dp"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <TextView
+                style="@style/text_13_9E9E9E"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="优惠券" />
+
+            <TextView
+                style="@style/text_18_c14748"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="0" />
+
+        </LinearLayout>
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="20dp" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp">
+
+        <com.lxl.shop.widget.StockTextView
+            android:id="@+id/customer_info"
+            style="@style/text_16_4a4a4a"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:text="用户信息"
+            app:stock_text_drawable_height="20dp"
+            app:stock_text_drawable_padding="10dp"
+            app:stock_text_drawable_src="@drawable/shop_customer_main_user"
+            app:stock_text_drawable_width="20dp" />
+
+        <ImageView
+            android:layout_width="5dp"
+            android:layout_height="9dp"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:background="@drawable/shop_common_arrow_right" />
+    </RelativeLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1px"
+        android:background="@color/shop_divider_line" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp">
+
+        <com.lxl.shop.widget.StockTextView
+            android:id="@+id/customer_record"
+            style="@style/text_16_4a4a4a"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:text="消费记录"
+            app:stock_text_drawable_height="20dp"
+            app:stock_text_drawable_padding="10dp"
+            app:stock_text_drawable_src="@drawable/shop_customer_main_cost"
+            app:stock_text_drawable_width="20dp" />
+
+        <ImageView
+            android:layout_width="5dp"
+            android:layout_height="9dp"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:background="@drawable/shop_common_arrow_right" />
+    </RelativeLayout>
+
+</LinearLayout>
